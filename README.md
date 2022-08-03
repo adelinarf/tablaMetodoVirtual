@@ -40,7 +40,7 @@ El programa puede manejar la herencia simple como A: B o B: C siempre que B y C 
 No es posible en este programa, ya que al definir A se necesita haber definido C, pero C es subclase de D, por lo que D debe estar definida y no puede ser subclase de A, porque A debe definirse anteriormente. Por esto, se puede modificar este código para el manejo de ciclos en las herencias, aunque debido a la definición dada no es necesario el manejo de las herencias cíclicas en estos momentos. No es posible generar herencias cíclicas con este programa.
 
 ## Code Coverage
-El code coverage se verificó con la herramienta Coverage.py (https://coverage.readthedocs.io/en/6.4.1/) y se obtuvo un 90% de coverage para el archivo tablasMetodosVirtuales.py
+El code coverage se verificó con la herramienta Coverage.py (https://coverage.readthedocs.io/en/6.4.1/) y se obtuvo un 82% de coverage para el archivo tablasMetodosVirtuales.py
 
 <img src="coverage.jpg" alt="coverage"/>
 
