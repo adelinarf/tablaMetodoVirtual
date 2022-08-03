@@ -1,5 +1,8 @@
 # Manejador de tablas de métodos virtuales
 ### Pregunta 4
+
+<img src="programa.jpg" alt="prog"/>
+
 Este programa permite manejar las definiciones de clases, subclases y describir los métodos que cada una de estas poseen. Se debe correr el archivo tablasMetodosVirtuales.py al igual que cualquier archivo de Python y se reciben las entradas por consola.
 
     python tablasMetodosVirtuales.py
@@ -38,3 +41,6 @@ No es posible en este programa, ya que al definir A se necesita haber definido C
 
 ## Code Coverage
 El code coverage se verificó con la herramienta Coverage.py (https://coverage.readthedocs.io/en/6.4.1/) y se obtuvo un 90% de coverage para el archivo tablasMetodosVirtuales.py
+
+<img src="coverage.jpg" alt="coverage"/>
+
