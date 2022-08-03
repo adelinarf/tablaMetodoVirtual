@@ -1,5 +1,5 @@
 import unittest
-from main import tipos, nuevoTipo, verificarEntrada, eliminarStringVacio,buscarMetodos,describeTipo
+from tablasMetodosVirtuales import tipos, nuevoTipo, verificarEntrada, eliminarStringVacio,buscarMetodos,describeTipo
 
 class Testing(unittest.TestCase):
     def test(self):
