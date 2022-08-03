@@ -18,6 +18,8 @@ Ejemplo:
     CLASS A f g
     CLASS B : A f j l
     
+#### Nota: Al crear una subclase como B, debe tener espacios entre el nombre de la subclase, los dos puntos y el nombre de la superclase para que pueda guardar la nueva clase. 
+    
 Se pueden describir los métodos de la clase con:
 
     DESCRIBIR nombreDeLaClase
