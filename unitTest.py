@@ -1,5 +1,5 @@
 import unittest
-from tablasMetodosVirtuales import tipos, nuevoTipo, verificarEntrada, eliminarStringVacio,buscarMetodos,describeTipo
+from main import tipos, nuevoTipo, verificarEntrada, eliminarStringVacio,buscarMetodos,describeTipo
 
 class Testing(unittest.TestCase):
     def test(self):
@@ -23,7 +23,7 @@ class Testing(unittest.TestCase):
         self.assertEqual(eliminarStringVacio(["DESCRIBIR","","A","","B","D"]),["DESCRIBIR","A","B","D"])
         self.assertEqual(eliminarStringVacio(["DESCRIBIR","","","","","","","","","D"]),["DESCRIBIR","D"])
         self.assertEqual(buscarMetodos("B"),[("B",["f","g","h"])])
-        self.assertEqual(buscarMetodos("A"),[("A",["f","g","m"]),("B",["f","g","h"])])
+        self.assertEqual(buscarMetodos("A"),[("A",["f","g","m"]),("B",["h"])])
         describeTipo(["B"])
         describeTipo(["A"])
    
